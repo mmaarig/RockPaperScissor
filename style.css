@@ -1,0 +1,60 @@
+body {
+    background-image: url(./media/bg3.jpeg);
+    height: 100vh;
+    width: 97vw;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    background-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+button {
+    margin: 30px;
+    padding: 40px 40px 40px 40px;
+    border-radius: 20px;
+    background-color: aqua;
+    font-weight: bolder;
+}
+button:hover {
+    background-color: rgb(213, 255, 255);
+    font-size: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: 100vh;
+        width: 97vw;
+        background-color: rgb(127, 240, 255);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.1rem;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    button {
+        margin: 20px;
+        padding: 40px 40px 40px 40px;
+        border-radius: 20px;
+        background-color: aqua;
+        font-weight: bolder;
+    }
+    button:hover {
+        background-color: rgb(213, 255, 255);
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    
+  }
